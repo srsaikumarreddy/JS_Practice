@@ -1,0 +1,147 @@
+Q1)
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="Apple">
+<button onclick="checkFruit()">Check Fruit</button>
+<p id="demo"></p>
+
+<script>
+function checkFruit() {
+  var text;
+  var fruits = document.getElementById("myInput").value;
+
+  switch(fruits) {
+    case "Banana":
+      text = "Banana is good!";
+      break;
+    case "Orange":
+      text = "I am not a fan of orange.";
+      break;
+    case "Apple":
+      text="How you like them apples?";
+     break;  
+        default:
+      text = "I have never heard of that fruit.";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+
+OUTPUT:How you like them apples?
+
+Q2)
+<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="Tutti Frutti">
+<button onclick="checkFruit()">Check Fruit</button>
+<p id="demo"></p>
+
+<script>
+function checkFruit() {
+  var text;
+  var fruits = document.getElementById("myInput").value;
+
+  switch(fruits) {
+    case "Banana":
+      text = "Banana is good!";
+      break;
+    case "Orange":
+      text = "I am not a fan of orange.";
+      break;
+    case "Apple":
+      text = "How you like them apples?";
+      break;
+    // add the default keyword here
+     default:
+     text="I have never heard of that fruit.";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+
+OUTPUT:I have never heard of that fruit.
+
+Q3)<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="Orange">
+<button onclick="checkFruit()">Check Fruit</button>
+<p id="demo"></p>
+
+<script>
+function checkFruit() {
+  var text;
+  var fruits = document.getElementById("myInput").value;
+
+  switch(fruits) {
+    case "Banana":
+      text = "Banana is good!";
+      break;
+    case "Orange":
+      text = "I am not a fan of orange.";
+      break;
+    case "Apple":
+      text = "How you like them apples?";
+      break;
+    default:
+      text = "I have never heard of that fruit.";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+
+OUTPUT:I am not a fan of orange.
+
+Q4)<!DOCTYPE html>
+<html>
+<body>
+
+<input id="myInput" type="text" value="BMW">
+<button onclick="checkCar()">Check Car</button>
+<p id="demo"></p>
+
+<script>
+function checkCar() {
+  var text;
+  var favCar = document.getElementById("myInput").value;
+
+  switch(favCar) {
+  
+   case "BMW":
+    text="German car";
+    break;
+    
+    case "Ford":
+    text="American car";
+    break;
+    
+    case "Peugeot":
+    text="French car";
+    break;
+    
+    default:
+    text="Unknown car name";
+    }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
+
+OUTPUT:German car

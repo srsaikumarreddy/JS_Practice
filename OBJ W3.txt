@@ -1,0 +1,21 @@
+Q1)
+
+console.log(person.firstname)
+
+OUTPUT:JOHN
+
+Q2)
+
+var  person={
+	 firstName:"John", lastName:"Doe",country:"USA";
+}
+
+Q3)
+var person={
+	name="John",age=50;
+}
+console.log(person.name + " is " + person.age + " years old")
+
+OUTPUT
+John is 50 years old.
+

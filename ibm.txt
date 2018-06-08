@@ -1,0 +1,19 @@
+var myobj=new object();
+myobj.name="sai";
+myobj.addo=function(){return myobj.name + "kumar";}	
+
+
+
+var myobj={
+	 name:"sai",
+	 addo=function(){return myobj.name + "kumar";}
+}
+
+
+function myObject() {
+  this.name = "sai";
+ this.addo = function() {
+ return this.name + "kumar";
+}
+ 
+var myobj= new myObject();

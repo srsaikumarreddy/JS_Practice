@@ -1,0 +1,37 @@
+ Q1)
+
+ var carName="Volvo";
+ console.log(carName);
+
+ Output:Volvo
+
+ Q2)
+
+ var number="50";
+ console.log(number);
+
+ Output:50
+
+ Q3)
+// Replace the n by N in carName 9case-sensitive)
+ document.getElementById("demo").innerHTML = carName;
+
+Q4)
+var x=5;
+var y=10;
+console.log(x+y)
+
+output:15
+
+Q5)
+var x=5;
+var y=10;
+var z=x+y;
+console.log(z);
+
+output:15;
+
+Q6) var firstName = "John",lastName = "Doe",age = 35;
+
+output:John Doe 35
+

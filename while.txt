@@ -1,0 +1,155 @@
+q1)
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i =0;
+while (i <10) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i++;
+}
+</script>
+
+</body>
+</html>
+
+output 
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+
+q2)
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i = 5;
+while (i < 10) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i++;
+}
+</script>
+
+</body>
+</html>
+
+ouput 
+
+
+
+5
+6
+7
+8
+9
+
+q3)
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i = 5;
+while (i <=50) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i=i+5;
+}
+</script>
+
+</body>
+</html>
+
+
+output 
+
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+
+q4)
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i = 10;
+while (i > 0) {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i--;
+}
+</script>
+
+</body>
+</html>
+ 
+
+
+ output 
+
+
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+q5)
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+do {
+    document.getElementById("demo").innerHTML += i + "<br>";
+    i++;
+}
+while (i<5)  
+</script>
+
+</body>
+</html>
+
+output 
+
+
+
+0
+1
+2
+3
+4

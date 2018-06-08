@@ -1,0 +1,85 @@
+q1)
+
+
+function tellFortune(noc,pn,gl,jt)
+{ 
+   var output="You will be a "+ jt +"in" + gl +",and married to " + pn + "with" + noc +" kids";
+
+  console.log(output);
+
+}
+
+tellFortune(1,Ann,America,Doctor);
+tellFortune(2,Bob,Bombay,Engineer);
+tellFortune(3,Carol,China,lawyer);
+
+q2)
+
+function calculateDogAge(age,rate)
+{
+	 var nnage=age*rate;
+	 var output="Your doggie is "+nnage+ "years old in dog years."
+  
+   console.log(output);
+
+ }
+  calculateDogAge(3,2);
+  calculateDogAge(7,7);
+  calculateDogAge(5,7);
+
+  q3)
+
+  function calculateSupply(age,amount)
+  { 
+    var maximumage=90;
+    var ysup=amount*365;
+    var rest=maximumage-age;
+    var totalsupply=ysup * rest;
+
+    var output="You will need" + totalsupply + "to last you until the ripe old age of " + maximummage;
+
+    console.log(ouput); 
+   }
+
+   calculateSupply(40,25);
+   calculateSupply(50,22);
+   calculateSupply(45,13);
+
+   q4)
+
+   function calcCircumfrence(radius)
+    {  
+      var circ=2*3.14*radius;
+      var output="The circumference is" + circ; 
+      console.log(output);
+    }
+
+     function calcArea(radius)
+    {  
+      var area=3.14*radius*radius;
+      var output="The area is " + area; 
+      console.log(output);
+    }
+
+    q5)
+
+    function celsiustoFahrenheit(cel)
+    { 
+     var far =((cel * 9)/5)+32;
+      var output= cel"C is " + fah "F"; 
+      console.log(output);
+
+    }
+
+     function Fahrenheittocelcius(fah)
+    { 
+     var cel =((fah-32)*5)/9;
+      var output= fah "F is " + cel "C "; 
+      console.log(output);
+
+    }
+
+   }
+
+
+  }

@@ -1,0 +1,50 @@
+Q1)
+
+var recipe = {
+    title:"Mole",
+    servings: 2,
+    ingredients: ['cumin', 'cinnamon', 'cocoa']
+};
+
+console.log(recipe.title);
+console.log("Servings: " + recipe.servings);
+console.log("Ingredients:");
+for (var i = 0; i < recipe.ingredients.length; i++) {
+    console.log(recipe.ingredients[i]);
+}
+
+OUTPUT
+
+Mole
+Serves: 2
+Ingredients:
+cinnamon
+cumin
+cocoa
+
+Q2)
+
+var books = [
+  {title:"Inferno",
+   author:"Dan Brown",
+   alreadyRead: false
+  },
+  {title:"Sherlock Holmes",
+  author:"Conan Doyle",
+  alreadyRead: true
+  }];
+
+for (var i = 0; i < books.length; i++) {
+  var book = books[i];
+  var bookstatus = book.title + " by" + book.author;
+  if (book.alreadyRead) {
+    console.log("You already read " + bookstatus);
+  } else {
+    console.log("You still need to read " + bookstatus);
+  }
+}
+
+
+OUTPUT
+You still need to read Inferno by Dan Brown
+You already read Sherlock Holmes by Conan Doyle

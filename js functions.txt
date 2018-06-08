@@ -1,0 +1,102 @@
+Q1)
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Hello World!";
+}
+ myFunction();
+</script>
+
+</body>
+</html>
+
+OUTPUT: Hello World!
+
+Q2)
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+function myFun {
+    document.getElementById("demo").innerHTML = "Hello World!";
+}
+myFun();
+</script>
+
+</body>
+</html>
+
+output :Hello World
+
+q3)
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+   return 5*5;
+}
+document.getElementById("demo").innerHTML = myFunction();
+</script>
+
+</body>
+</html>
+
+ouput:25
+
+q4)
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+function myFunction(name) {
+    return "Hello " + name;
+}
+
+document.getElementById("demo").innerHTML=myFunction("John");
+</script>
+
+</body>
+</html>
+
+output : Hello John
+
+q5)
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display the result here.</p>
+
+<script>
+// Define and call the function here
+
+function myFunction()
+{ 
+ document.getElementByID("demo").innerHTML="Hello World!";
+}
+ myFunction();
+</script>
+
+</body>
+</html>
+
+output :Hello World!
